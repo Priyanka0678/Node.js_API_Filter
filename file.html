@@ -86,7 +86,7 @@
                 const vocab = $('#vocab').val();
                 const query = $('#query').val();
                 const lang = $('#lang').val();
-                const apiUrl = `http://localhost:2000/search?vocab=${vocab}&query=${query}&lang=${lang}`;
+                const apiUrl = `http://localhost:3001/search?vocab=${vocab}&query=${query}&lang=${lang}`;
 
                 try {
                     const response = await fetch(apiUrl);
@@ -138,8 +138,6 @@
                         "hiddenLabel": "skos:hiddenLabel",
                         "@language": "en"
                     },
-                  // "uri": "",
-                   // "results": []
                 };
 
                 // Filter and transform the JSON response
