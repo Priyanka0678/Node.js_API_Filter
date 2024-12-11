@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "isothes": "http://purl.org/iso25964/skos-thes#",
+    "onki": "http://schema.onki.fi/onki#",
+    "uri": "@id",
+    "type": "@type",
+    "results": {
+      "@id": "onki:results",
+      "@container": "@list"
+    },
+    "prefLabel": "skos:prefLabel",
+    "altLabel": "skos:altLabel",
+    "hiddenLabel": "skos:hiddenLabel",
+    "@language": "en"
+  },
+  "uri": "",
+  "results": [
+    {
+      "uri": "http://www.yso.fi/onto/koko/p36507",
+      "type": [
+        "skos:Concept",
+        "http://www.yso.fi/onto/yso-meta/Concept",
+        "http://www.yso.fi/onto/oma-meta/Concept",
+        "http://www.yso.fi/onto/jupo-meta/Concept",
+        "http://www.yso.fi/onto/tsr-meta/Concept",
+        "http://www.yso.fi/onto/afo-meta/Concept",
+        "http://www.yso.fi/onto/soto-meta/Concept"
+      ],
+      "localname": "p36507",
+      "prefLabel": "biotechnology",
+      "lang": "en",
+      "vocab": "koko"
+    }
+  ]
+}
+
+
